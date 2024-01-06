@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Coiny&family=Sono:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Coiny&family=Sono:wght@400;600;&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
     <title>Free4Gossip</title>
   </head>
@@ -17,7 +17,7 @@
           <h1>Free4Gosip</h1>
         </div>
 
-        <button>Share a Fact</button>
+        <button class="btn btn-large">Share a Fact</button>
       </header>
 
       <form action="" class="fact-form">
@@ -30,20 +30,20 @@
           <option value="science">Science</option>
           <option value="finance">Finance</option>
         </select>
-        <button>Post</button>
+        <button class="btn btn-large">Post</button>
       </form>
 
       <main class="main">
         <aside>
           <ul>
-            <li>
-              <button>All</button>
+            <li class="category">
+              <button class="btn btn-all-categories">All</button>
             </li>
-            <li>
-              <button>Technology</button>
+            <li class="category">
+              <button class="btn btn-category" style="background-color: #3b82f6">Technology</button>
             </li>
-            <li>
-              <button>Society</button>
+            <li class="category">
+              <button class="btn btn-category" style="background-color: #16a34a">Society</button>
             </li>
           </ul>
         </aside>
@@ -72,9 +72,9 @@
               </p>
               <span class="tag" style="background-color: #eab308">#society#</span>
               <div class="vote-buttons">
-                <button>👍 <strong>11</strong></button>
-                <button>🤯 <strong>2</strong></button>
-                <button>⛔️ <strong>0</strong></button>
+                <button>👍 11</button>
+                <button>🤯 2</button>
+                <button>⛔️ 0</button>
               </div>
             </li>
           </ul>
